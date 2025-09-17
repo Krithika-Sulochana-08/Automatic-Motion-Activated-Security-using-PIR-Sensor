@@ -1,3 +1,4 @@
+# KRITHIKA SULOCHANA BALASUNDARAM (212223060130)
 # Automatic-Motion-Activated-Security-using-PIR-Sensor
 ## AIM:
              To detect motion using a PIR sensor connected to an Arduino and trigger an LED (using the built-in LED) when motion is sensed.
@@ -11,6 +12,10 @@
 6.	Jumper wires – As required
 7.	USB Cable – 1 No (for uploading code and powering Arduino)
 8.	Computer with Tinkercad or Arduino IDE installed
+
+# Circuit Diagram
+<img width="1013" height="536" alt="image" src="https://github.com/user-attachments/assets/b2d79848-57c2-41f5-9b14-c1f6e62b8695" />
+
 
 ## Theory:
 
@@ -60,10 +65,32 @@ Step 7: Save Your Work
 
 
 # Code:
+int buttonState = 0;
+void setup()
+{
+  pinMode(2, INPUT);
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+void loop()
+{
+  buttonState = digitalRead(2);
+  if (buttonState == HIGH)
+  {
+    digitalWrite(LED_BUILTIN, HIGH);
+  }
+  else
+  {
+    digitalWrite(LED_BUILTIN, LOW);
+  }
+  delay(10);
+}
 
 
 
 # Output:
+
+https://github.com/user-attachments/assets/cbe71d98-dff9-4aa3-afe0-4b32a45eb460
+
 
 
 
