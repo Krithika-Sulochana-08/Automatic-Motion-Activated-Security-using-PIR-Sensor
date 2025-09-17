@@ -13,6 +13,12 @@
 7.	USB Cable – 1 No (for uploading code and powering Arduino)
 8.	Computer with Tinkercad or Arduino IDE installed
 
+# Schematic view
+<img width="1056" height="772" alt="image" src="https://github.com/user-attachments/assets/91ee24c6-f02f-4f47-a133-d314d9de4e7c" />
+
+
+
+
 # Circuit Diagram
 <img width="1013" height="536" alt="image" src="https://github.com/user-attachments/assets/b2d79848-57c2-41f5-9b14-c1f6e62b8695" />
 
